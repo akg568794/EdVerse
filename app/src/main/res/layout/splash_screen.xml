@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333366"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/education"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.1"
+        android:text="Nerdo"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="-2dp"
+        android:background="#03A9F4"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience immersive learning"
+        android:layout_marginTop="10dp"
+        android:letterSpacing=".2"
+        android:textSize="16sp"
+        android:textColor="#DDDBDB"/>
+</LinearLayout>

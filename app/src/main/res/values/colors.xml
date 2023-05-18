@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="mainCol">#b7e3ff</color>
     <color name="sideCol">#b7e3ff</color>
+    <color name="lavender">#ffcd1d</color>
 </resources>
