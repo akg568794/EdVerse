@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Points"
+        android:title="Points"
+        />
+    <item
+        android:id="@+id/Score"
+        android:title="000"
+        />
+    <item
+        android:id="@+id/a7"
+        android:title=""
+        />
+    <item
+        android:id="@+id/a6"
+        android:title=""
+        />
+    <item
+        android:id="@+id/a5"
+        android:title=""
+        />
+    <item
+        android:id="@+id/a4"
+        android:title=""
+        />
+    <item
+        android:id="@+id/a3"
+        android:title=""
+        />
+    <item
+        android:id="@+id/a2"
+        android:title=""
+        />
+    <item
+        android:id="@+id/a1"
+        android:title=""
+        />
+
+    <item
+        android:id="@+id/logOut"
+        android:title="Log Out"
+        />
+</menu>
