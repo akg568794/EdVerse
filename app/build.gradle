@@ -43,17 +43,15 @@ android {
 }}
 
 dependencies {
-<<<<<<< HEAD
-    implementation 'com.daimajia.easing:library:2.0@aar'
+ implementation 'com.daimajia.easing:library:2.0@aar'
     implementation 'com.daimajia.androidanimations:library:2.3@aar'
     implementation 'androidx.core:core-splashscreen:1.0.1'
     implementation("com.airbnb.android:lottie:6.0.0")
     implementation 'androidx.core:core-ktx:1.7.0'
-=======
     implementation 'androidx.core:core-splashscreen:1.0.1'
     implementation("com.airbnb.android:lottie:6.0.0")
     implementation 'androidx.core:core-ktx:1.8.0'
->>>>>>> 30e2ad7 (Initial commit)
+
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.9.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
