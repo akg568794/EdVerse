@@ -1,5 +1,6 @@
 package com.thakursa.nerdo
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
 import android.widget.VideoView
@@ -19,8 +20,9 @@ class interview : AppCompatActivity() {
         //MediaController mediaController = new MediaController(this);
         // mediaController.setAnchorView(videoView);
         //videoView.setMediaController(mediaController);
-        videoView.setVideoPath("raw/interviewer.mp4")
-
-        videoView.start()
+        val view = findViewById<View>(R.id.videoView) as VideoView
+        val path = "android.resource://" + packageName + "/" + R.raw.interviewer
+        view.setVideoURI(Uri.parse(path))
+        view.start()
     }
 }
