@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name">Nerdo</string>
+    <string name="app_name">EdVerse</string>
     <string name="medical">Medical</string>
     <string name="skill_and_dev">Skill And Development</string>
     <string name="vocation">Vocational</string>
     <string name="design">Design</string>
     <string name="communication">Communication</string>
     <string name="psychology">Psychology</string>
+
 
 
     //pasta

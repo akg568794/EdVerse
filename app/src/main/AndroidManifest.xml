@@ -7,18 +7,20 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="EdVerse"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Nerdo"
         tools:targetApi="31">
+        <activity
+            android:name=".surgery"
+            android:exported="false" />
         <activity
             android:name=".GDactivity"
             android:exported="false" />
         <activity
             android:name=".interview"
             android:exported="false" />
-
         <activity
             android:name=".SkillDevelopmentActivity"
             android:exported="false" />

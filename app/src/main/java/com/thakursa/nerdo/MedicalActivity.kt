@@ -45,7 +45,7 @@ class MedicalActivity : AppCompatActivity() {
             R.string.burgerDesc,
             R.string.friesDesc
         )
-        val nameList = arrayOf("Biopsy", "Blood Transfusion", "C Section", "Colonoscopy", "Endoscopy", "Laparoscopy", "Organ Transplant")
+        val nameList = arrayOf("Surgery", "Blood Transfusion", "C Section", "Colonoscopy", "Endoscopy", "Laparoscopy", "Organ Transplant")
         val timeList = arrayOf("30 mins", "2 mins", "45 mins", "10 mins", "60 mins", "45 mins", "30 mins")
 
         for (i in imageList.indices) {
@@ -68,6 +68,14 @@ class MedicalActivity : AppCompatActivity() {
             intent.putExtra("desc", descList[i])
             intent.putExtra("image", imageList[i])
             startActivity(intent)
+            if(nameList[i]=="Surgery"){
+                val intent1 = Intent(this@MedicalActivity, surgery::class.java)
+                startActivity(intent1)
+            }
+            else {
+                startActivity(intent)
+            }
         }
+
     }
 }
