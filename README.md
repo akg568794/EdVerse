@@ -5,7 +5,7 @@
   <br>
 </h1>
 
-<h4 >A mobile news application built on <a href="https://developer.android.com/studio/" target="_blank">Android Studio</a>.</h4>
+<h4 >A mobile application built on <a href="https://developer.android.com/studio/" target="_blank">Android Studio</a>.</h4>
 
   [![Code size](https://img.shields.io/github/languages/code-size/ThakurSaAbhay/EdVerse?style=for-the-badge)](https://github.com/ThakurSaAbhay/Buzznews)
   [![Issues](https://img.shields.io/github/issues/ThakurSaAbhay/EdVerse?style=for-the-badge&label=Issues)](https://github.com/ThakurSaAbhay/Buzznews)
@@ -52,7 +52,7 @@ and open the cloned folder with Android Studio.
 
 ## About
 
-This is an android application made on android studio giving the UI of an education app which is integrated with firebase for authentication and storage.
+This is an android application made on android studio giving the UI of an education app which is integrated with firebase for authentication and storage. This application is basically an edtech application which uses AR/VR for more interactive classes for user. It also has interactive animations in it's UI which makes it aesthetically more pleasing.
 
 ## Points to remember while testing the app
 
